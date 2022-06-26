@@ -1,0 +1,61 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+}
+
+input {
+    max-width: 500px;
+    max-height: 500px;
+
+}
+
+button {
+    max-width: 1000px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+body {
+    align-items: center;
+    
+}
+
+h1 {
+    color: blue;
+    margin: 20px 0px 20px;
+    font-size: 55px;
+    font-style: initial;
+}
+
+label {
+    align-self: center;
+    text-align: center;
+    font-weight: bolder;
+    font-style: initial;
+    font-stretch: 17cm;
+    border-radius: 1000px;
+    color: blue;
+    padding: 13px 70px;
+    font-size: x-large
+}
+form input{
+    height: 2.5em;
+    width: 1000px;
+    border-radius: 50px;
+}
+
+::placeholder {
+    font-size: medium;
+    font-style: initial;
+    text-align: center;
+}
